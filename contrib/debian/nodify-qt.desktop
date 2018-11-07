@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Nodify
+Comment=Nodify P2P Cryptocurrency
+Comment[fr]=Nodify, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nodify, eşten eşe kriptografik sanal para birimi
+Exec=nodify-qt %u
+Terminal=false
+Type=Application
+Icon=nodify128
+MimeType=x-scheme-handler/nodify;
+Categories=Office;Finance;

@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/nodify_bg.qm</file>
+        <file alias="ca">locale/nodify_ca.qm</file>
+        <file alias="cs">locale/nodify_cs.qm</file>
+        <file alias="da">locale/nodify_da.qm</file>
+        <file alias="de">locale/nodify_de.qm</file>
+        <file alias="en">locale/nodify_en.qm</file>
+        <file alias="en_US">locale/nodify_en_US.qm</file>
+        <file alias="es">locale/nodify_es.qm</file>
+        <file alias="fi">locale/nodify_fi.qm</file>
+        <file alias="fr_FR">locale/nodify_fr_FR.qm</file>
+        <file alias="hr">locale/nodify_hr.qm</file>
+        <file alias="it">locale/nodify_it.qm</file>
+        <file alias="ja">locale/nodify_ja.qm</file>
+        <file alias="ko_KR">locale/nodify_ko_KR.qm</file>
+        <file alias="nl">locale/nodify_nl.qm</file>
+        <file alias="pl">locale/nodify_pl.qm</file>
+        <file alias="pt">locale/nodify_pt.qm</file>
+        <file alias="pt_BR">locale/nodify_pt_BR.qm</file>
+        <file alias="ro_RO">locale/nodify_ro_RO.qm</file>
+        <file alias="ru">locale/nodify_ru.qm</file>
+        <file alias="sk">locale/nodify_sk.qm</file>
+        <file alias="sv">locale/nodify_sv.qm</file>
+        <file alias="tr">locale/nodify_tr.qm</file>
+        <file alias="uk">locale/nodify_uk.qm</file>
+        <file alias="zh_CN">locale/nodify_zh_CN.qm</file>
+        <file alias="zh_TW">locale/nodify_zh_TW.qm</file>
+    </qresource>
+</RCC>
