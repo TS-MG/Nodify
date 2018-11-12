@@ -1,0 +1,26 @@
+[Unit]
+Description=Nodify's distributed currency daemon
+After=network.target
+
+[Service]
+User=nodify
+Group=nodify
+
+Type=forking
+PIDFile=/var/lib/nodifyd/nodifyd.pid
+
+ExecStart=/usr/bin/nodifyd -daemon -pid=/var/lib/nodifyd/nodifyd.pid \
+          -conf=/etc/nodify/nodify.conf -datadir=/var/lib/nodifyd
+
+ExecStop=-/usr/bin/nodify-cli -conf=/etc/nodify/nodify.conf \
+         -datadir=/var/lib/nodifyd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
